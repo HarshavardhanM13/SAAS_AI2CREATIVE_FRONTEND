@@ -2,7 +2,7 @@
 import axios from "axios";
 import {  type GeneratePayload, type ImageItem } from "../types";
 
-const API_URL = "https://saas-ai2creative-backend.onrender.com/";
+const API_URL = "https://saas-ai2creative-backend.onrender.com/marketing/campaigns";
 
 export const generateImages = async (
   data: GeneratePayload
